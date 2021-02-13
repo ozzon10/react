@@ -21,10 +21,7 @@ import { Link } from 'react-router-dom';
               {comment}
             </Media>
           </div>
-        );
-      
-      
-      
+        );  
     }
 
     function RenderDish({dish}) {
@@ -41,7 +38,7 @@ import { Link } from 'react-router-dom';
         );
     }
 
-    const DishDetail = (props) =>{
+    function DishDetail(props){
       
       if(props.dish != null){
         return (
